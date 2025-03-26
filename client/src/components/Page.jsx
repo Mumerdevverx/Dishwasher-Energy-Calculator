@@ -137,7 +137,7 @@ export const Page = () => {
                     >
                         <p className="text-yellow-300 font-medium">🛠️ Dishwasher Age: {item.age}</p>
                       <p>💰 Old Cost: <span className="text-red-400">${item.oldYearlyCost}</span></p>
-                      <p>⚡ New Cost: <span className="text-green-400">${item.newYearlyCost}</span></p>
+                      {/* <p>⚡ New Cost: <span className="text-green-400">${item.newYearlyCost}</span></p> */}
                       <p className="text-green-300 font-bold text-lg">🎉 Savings: ${item.yearlySavings}</p>
                       <p className="text-gray-300 italic text-sm animate-pulse">
   Allow users to enter their <span className="text-yellow-300 font-semibold">dishwasher’s age</span>,  
