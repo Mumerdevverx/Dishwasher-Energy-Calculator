@@ -140,6 +140,7 @@ export const Page = () => {
                       <p>⚡ New Cost: <span className="text-green-400">${item.newYearlyCost}</span></p>
                       <p className="text-green-300 font-bold text-lg">🎉 Savings: ${item.yearlySavings}</p>
                       <p className="text-gray-300 italic text-sm animate-pulse">
+                      {/* <p className="text-gray-300 italic text-sm animate-pulse">  <p className="text-gray-300 italic text-sm animate-pulse">  <p className="text-gray-300 italic text-sm animate-pulse"> */}
   Allow users to enter their <span className="text-yellow-300 font-semibold">dishwasher’s age</span>,  
   <span className="text-yellow-300 font-semibold"> usage</span>, and  
   <span className="text-yellow-300 font-semibold"> electricity cost</span> to calculate savings.  
